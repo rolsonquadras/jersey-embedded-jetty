@@ -11,7 +11,7 @@ import org.eclipse.jetty.servlet.ServletHolder;
  *        This class will load the configuration from java class to jetty
  *        standalone server.
  */
-public class App {
+public class JavaApp {
 	public static void main(String[] args) throws Exception {
 		ServletContextHandler context = new ServletContextHandler(
 				ServletContextHandler.SESSIONS);

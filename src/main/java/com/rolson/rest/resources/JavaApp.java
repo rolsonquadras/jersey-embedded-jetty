@@ -1,3 +1,8 @@
+/* Copyright (C) 2015  Rolson Quadras
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, version 3 of the License.*/
 package com.rolson.rest.resources;
 
 import org.eclipse.jetty.server.Server;
@@ -5,11 +10,11 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
 /**
+ * This class will load the configuration from java class to jetty standalone
+ * server.
+ * 
  * @author rolson.quadras@gmail.com
  * @since 1.0.0
- *        <p>
- *        This class will load the configuration from java class to jetty
- *        standalone server.
  */
 public class JavaApp {
 	public static void main(String[] args) throws Exception {

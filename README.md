@@ -1,5 +1,7 @@
 # REST Jetty Standalone demo
 
+<v1>
+
 This is a sample demo project to show the use of Jetty(v9.2.3) Standalone Server with Jersey(v2.7) implementation of JAX-RS.
 
 **Resources Class:**

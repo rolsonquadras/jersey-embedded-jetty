@@ -10,7 +10,7 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
 /**
- * This class will load the configuration from java class to jetty standalone
+ * This class will load the configuration from java class to Jetty standalone
  * server.
  * 
  * @author rolson.quadras@gmail.com
